@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    background: linear-gradient(180deg,rgb(66, 28, 168) 0%, rgb(120, 46, 163) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+/* Bordered form */
+form {
+    
+    border: none;
+    position: absolute;
+    width: 375px;
+    height: 600px;
+    margin: 2% 35%;
+   
+   
+   /*  margin-left: 35%;s
+    margin-right: 35%;
+    margin-top: 2%;
+    */ 
+    
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+}
+
+button[type=Register]{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 30%;
+    float: right;
+    margin-top: 5%;
+}
+.topnavbar{
+    background-color: rgb(7, 7, 43);
+    overflow: hidden;
+    padding: 10px;
+    margin: auto;
+   
+    
+}
+
+.topnavbar a.std_pg{
+   color: white;
+   padding: 14px 16px; 
+   text-decoration: none;
+   float: right;
+}
+
+.topnavbar a.homepage{
+    color: white;
+    padding: 14px 16px; 
+    text-decoration: none;
+ }
+
+  /* input[type=checkbox]{
+    margin: 30px;
+  } */
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.5;
+  }
+
+  .topnavbar a:hover{
+      color: black;
+      background-color: beige;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+ label {
+      color: white;
+  }
+  
+  /* Add padding to containers */
+  .container1 {
+    padding: 16px;
+    margin-top: 10%;
+  }
+  
+  .container2 {
+    padding: 10px;
+    margin-top: 5%;
+  }
+  
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+  }
+
+ a#pwd_forgot{
+     color: white;
+ }
+
+p#Login_header{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.footer{
+   
+   margin: 37% 10% 0px 10%;
+}
+#fbLogo{
+    float: right;
+    
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+       text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: blue;
+        color: white;
+        
+    
+}
+#twtLogo{
+    float: right;
+    
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    background: #55ACEE;
+    color: white;
+}
+
+p#copyright{
+    color: white;
+}
+
+p#create_account{
+    color: white;
+}
+
+
+
+  
+  /*  Change styles for span and cancel button on extra small screens 
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  } */
